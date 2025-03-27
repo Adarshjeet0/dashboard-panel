@@ -3,6 +3,9 @@
 ## 📌 Objective
 This project is a **React.js/Next.js** application that includes user authentication and a dashboard with a data table featuring sorting, filtering, and pagination functionalities.
 
+## 📌 Demo
+https://adarshjeet0.github.io/dashboard-panel
+
 ## 📂 Project Structure
 The application consists of two main pages:
 
@@ -49,7 +52,7 @@ The application consists of two main pages:
 ## 🏗️ Installation & Setup
 1. **Clone the Repository:**
    ```sh
-   git clone https://github.com/your-username/auth-dashboard.git
+   git clone https://github.com/Adarshjeet0/dashboard-panel.git
    cd auth-dashboard
    ```
 2. **Install Dependencies:**
