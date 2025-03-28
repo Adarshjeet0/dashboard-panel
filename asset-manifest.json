@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/dashboard-panel/static/js/main.b3a6fd56.js",
+    "main.js": "/dashboard-panel/static/js/main.e22c15d8.js",
     "index.html": "/dashboard-panel/index.html",
-    "main.b3a6fd56.js.map": "/dashboard-panel/static/js/main.b3a6fd56.js.map"
+    "main.e22c15d8.js.map": "/dashboard-panel/static/js/main.e22c15d8.js.map"
   },
   "entrypoints": [
-    "static/js/main.b3a6fd56.js"
+    "static/js/main.e22c15d8.js"
   ]
 }
