@@ -317,7 +317,7 @@ const DetailsPage = () => {
                 </TableBody>
               </Table>
             </TableContainer> */}
-            <DataTable />
+            <DataTable search={search}/>
           </Container>
         </Box>
       </Box>

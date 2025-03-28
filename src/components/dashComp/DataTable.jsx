@@ -84,7 +84,22 @@ const rows = [
 
 const paginationModel = { page: 0, pageSize: 5 };
 
-export default function DataTable() {
+export default function DataTable(props) {
+  const {search} = props;
+  if(search){
+    const filteredRows = rows.filter(row => row.firstName.toLowerCase().includes(search.toLowerCase()) || row.lastName.toLowerCase().includes(search.toLowerCase()));
+    return (
+      <Paper sx={{ height: 470, width: '100%' }}>
+        <DataGrid
+          rows={filteredRows}
+          columns={columns}
+          initialState={{ pagination: { paginationModel } }}
+          pageSizeOptions={[5, 10]}
+          sx={{ border: 0 }}
+        />
+      </Paper>
+    );
+  }
   return (
     <Paper sx={{ height: 470, width: '100%' }}>
       <DataGrid
